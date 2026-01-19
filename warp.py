@@ -9,7 +9,7 @@ def test_page_warp():
     
     try:
         # 1. 초기 접속
-        driver.get("https://www.mma.go.kr/board/boardList.do?gesipan_id=2")
+        driver.get("https://www.mma.go.kr")
         time.sleep(2)
         
         # 1페이지 첫 번째 글 제목 확인
